@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd PumpFunCabal && npm run build:client",
+  "outputDirectory": "PumpFunCabal/dist/public",
+  "installCommand": "cd PumpFunCabal && npm ci",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
